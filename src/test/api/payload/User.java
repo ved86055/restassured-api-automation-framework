@@ -6,6 +6,11 @@ public class User
     int id;
     String username;
     String firstName;
+    String lastName;
+    String email;
+    String password;
+    String phone;
+    int userStatus= 0;
 
     public int getId()
     {
@@ -72,11 +77,7 @@ public class User
         this.userStatus = userStatus;
     }
 
-    String lastName;
-    String email;
-    String password;
-    String phone;
-    int userStatus= 0;
+
 
 
 
