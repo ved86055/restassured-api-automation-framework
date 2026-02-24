@@ -1,4 +1,5 @@
 package api.endpoints;
+import api.payload.User;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import net.bytebuddy.asm.Advice;
